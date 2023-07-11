@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/profile_pict"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_photo"
+        />
+    <EditText
+        android:id="@+id/tv_name"
+        android:layout_marginTop="51dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:background="@drawable/edit_shape"
+        android:paddingStart="20sp">
+    </EditText>
+    
+    <EditText
+        android:id="@+id/tv_palindrome"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Palindrome"
+        android:background="@drawable/edit_shape"
+        android:paddingStart="20sp"
+       >
+    </EditText>
+    
+    <Button
+        android:id="@+id/btn_check"
+        android:layout_marginTop="45dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_shape"
+        app:backgroundTint="@color/btn_color"
+        android:text="CHECK">
+    </Button>
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_shape"
+        app:backgroundTint="@color/btn_color"
+        android:text="NEXT">
+    </Button>
+
+
+
+</LinearLayout>
