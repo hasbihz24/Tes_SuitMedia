@@ -5,6 +5,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
+        android:name=".App"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -15,15 +16,15 @@
         android:theme="@style/Theme.SuitMedia_Tes"
         tools:targetApi="31">
         <activity
-            android:name=".third_screen"
+            android:name=".ui.ThirdScreen"
             android:exported="false"
             />
         <activity
-            android:name=".SecondScreen"
+            android:name=".ui.SecondScreen"
             android:exported="false"
             />
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.MainActivity"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
